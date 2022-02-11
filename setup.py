@@ -4,7 +4,7 @@ import sys
 from setuptools import setup
 
 VERSION = '0.0.1'
-DESCRIPTION = "Python tools for making models of "
+DESCRIPTION = "Python tools for processing observations of solar system bodies; modeling tools for rings, planets, and moons"
 
 CLASSIFIERS = list(filter(None, map(str.strip,
 """

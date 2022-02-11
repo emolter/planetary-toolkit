@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import unittest
-from shift_stack_moons import get_ephem
+from planetaryToolkit.ephem import get_ephem
 
 class TestNaif(unittest.TestCase):
     
@@ -48,7 +48,7 @@ class TestGetEphem(unittest.TestCase):
             
         # bad tstart
         with self.assertRaises(ValueError):
-            get_ephem.get_ephemerides(code, obscode, '20211008 0000', tend, stepsize, quantities)
+           get_ephem.get_ephemerides(code, obscode, '20211008 0000', tend, stepsize, quantities)
     
     def test_argparse_defaults(self):
         
