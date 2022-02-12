@@ -70,7 +70,8 @@ id,long_name,short_name
 38,	 POS uncertainty (RSS), pos_3sig
 39,	 Range 3-sigma, delta_3sig
 39, Range-rate 3-sigma, deldot_3sig
-40,	 Doppler 3-sigma, doppler_3sig
+40,	 Doppler S 3-sigma, doppler_s_3sig
+40, Doppler X 3-sigma, doppler_x_3sig
 40, Delay 3-sigma, delay_3sig
 41,	 True anomaly angle,  true_anom_ang
 42,	 Local apparent hour angle, la_hour_ang
