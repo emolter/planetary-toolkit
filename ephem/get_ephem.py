@@ -23,7 +23,9 @@ TO DO:
     make a nice README for pyplanet
     make a Jupyter notebook demonstrating get_ephem
     improve the long_names in horizons_column_name_table.txt, include units column
-
+    better commenting, including this one
+    make a readthedocs page
+    make the code citeable
 """
 
 from urllib.request import urlopen, urlretrieve
