@@ -20,7 +20,7 @@ class TestNaif(unittest.TestCase):
         
 class TestGetEphem(unittest.TestCase):
     
-    def test_goodcases(self,
+    def test_goodcase1(self,
                         code = '899', 
                         obscode = '568', 
                         tstart = '2021-10-08 00:00', 
@@ -31,7 +31,7 @@ class TestGetEphem(unittest.TestCase):
         out, observatory_coords = get_ephem.get_ephemerides(code, obscode, tstart, tend, stepsize, quantities)
         
         self.assertEqual(len(observatory_coords), 3)
-        self.assertEqual(out[0].shape[0], 26)
+        self.assertEqual(out.shape, (49, 26))
         
     
     def test_failcases(self,

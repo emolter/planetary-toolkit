@@ -1,0 +1,89 @@
+id,long_name,short_name
+0,    UT Date and time (%Y-%b-%D %H:%M), datetime   
+0, Solar presence message, solar_message
+0, Lunar presence message, lunar_message
+1,	 Astrometric RA, ra
+1, Astrometric DEC, dec
+2,	 Apparent RA, ra_apparent
+2, Apparent DEC, dec_apparent
+3,	 Rate of motion in RA dRA*cosD, rate_ra
+3, Rate of motion in DEC d(DEC)/dt, rate_dec
+4,	 Apparent azimuth, az_apparent
+4, Apparent elevation, el_apparent
+5,	 Azimuth rate  dAZ*cosE, rate_az
+5, Elevation rate d(ELV)/dt, rate_el       
+6,	 Satellite X position from primary, sat_x
+6, Satellite Y position from primary, sat_y
+6, Satellite position angle from primary, sat_pang
+7,	 Local apparent sidereal time, la_sidereal_t
+8,	 Airmass, airmass
+8, Extinction (mag), extinction
+9,	 Apparent magnitude, mag_apparent
+9, Surface brightness, surf_bright
+10,	 Illuminated fraction, frac_illu
+11,	 Defect of illumination,		def_illu 
+12,	 Satellite angular separ,	ang_sep	
+12, Satellite visibility message, vis_message
+13,	 Target angular diameter, ang_diam
+14,	 Observer sub-longitude, sub_obs_lon
+14, Observer sub-latitude, sub_obs_lat
+15,	 Sun sub-longitude, sub_sun_lon
+15, Sun sub-latitude, sub_sun_lat
+16,	 Sub-Sun position angle, sub_sun_pa
+16, Sub-Sun distance, sub_sun_dist
+17,	 North Pole position angle, np_ang
+17, North Pole distance, np_dist 
+18,	 Heliocentric ecliptic longitude, hecl_lon
+18, Heliocentric ecliptic latitude, hecl_lat
+19,	 Heliocentric range, r   
+19, Heloicentric range-rate, rdot
+20,	 Observer range, delta
+20, Observer range-rate, deldot
+21,	 One-way (down-leg) light-time, down_lt  
+22,	 Speed wrt Sun, speed_sun
+22, Speed wrt observer, speed_obs
+23,	 Sun-Observer-Target ELONG angle, sot_ang
+23, NO IDEA WHAT THIS IS, sot_slash_r
+24,	 Sun-Target-Observer PHASE angle, sto_ang
+25,	 Target-Observer-Moon angle, tom_ang
+25, Target-Observer-Moon Illum%, tom_illu 
+26,	 Observer-Primary-Target angle, opt_ang
+27,	 Sun-Target radial  pos. angle, st_rad_ang
+27, Sun-Target -vel  pos. angle&, st_vel_ang
+28,	 Orbit plane angle, pl_ang 
+29,	 Constellation ID, constellation    
+30,	 Delta-T (TDB - UT),   tdb_minus_ut
+31,	 Observer ecliptic longitude, obs_ec_lon
+31, Observer ecliptic latitude, obs_ec_lat
+32,	 North pole RA, np_ra
+32, North pole DEC, np_dec
+33,	 Galactic longitude, gal_lon
+33, Galactic latitude, gal_lat
+34,	 Local apparent SOLAR time, la_solar_t
+35,	 Earth->obs. site light-time,  earth_obs_lt 
+36,	 RA uncertainty, ra_3sig
+36, DEC uncertainty, dec_3sig
+37,	 Plane-of-sky error ellipse A, smaa_3sig
+37,  Plane-of-sky error ellipse I, smia_3sig
+37,  Plane-of-sky error ellipse theta, theta_3sig
+37,  Plane-of-sky error ellipse area, area_3sig
+38,	 POS uncertainty (RSS), pos_3sig
+39,	 Range 3-sigma, delta_3sig
+39, Range-rate 3-sigma, deldot_3sig
+40,	 Doppler 3-sigma, doppler_3sig
+40, Delay 3-sigma, delay_3sig
+41,	 True anomaly angle,  true_anom_ang
+42,	 Local apparent hour angle, la_hour_ang
+43,	 PHASE angle, phi
+43, PHASE angle bisector lon, pab_lon
+43, PHASE angle bisector lat, pab_lat
+44,	 Apparent longitude Sun (L_s), app_lon_sun
+45,	 Inertial apparent RA, ra_inertial
+45, Inertial apparent DEC, dec_inertial
+46,	 Inertial RA rate I_dRA*cosD, rate_ra_inertial     
+46, Inertial DEC rate I_d(DEC)/dt, rate_dec_inertial 
+47,	 Sky motion rate, sky_rate & angles
+47, Sky motion PA, sky_pa
+47, Sky motion RelVel angle, sky_rva
+48,	 Lunar sky-brightness, lunar_sky_brt
+48, Sky SNR, sky_snr
