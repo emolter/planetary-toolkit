@@ -15,10 +15,15 @@
             adapted to fit into whats_up.py
   v3: 2022-02-11 E. Molter
             added arg parser to support command line call
-TO DO: add parser for output from JPL
-    get_ephemerides should return a pd.DataFrame()
-    will need dictionary of names for EVERY column ID 
-    most of this should be written somewhere in whats_up
+TO DO: 
+    finish the actual tasks of the homework
+    write more tests for get_ephemerides new DataFrame output
+        should include functionality to request all Horizons fields
+        should test different subsets
+    make a nice README for pyplanet
+    make a Jupyter notebook demonstrating get_ephem
+    improve the long_names in horizons_column_name_table.txt, include units column
+
 """
 
 from urllib.request import urlopen, urlretrieve
