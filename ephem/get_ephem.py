@@ -10,11 +10,18 @@
   v2: 2017-06-15 E. Molter
             added naif_lookup
             adapted to fit into whats_up.py
+  v3: 2022-02-11 E. Molter
+            added arg parser to support command line call
+TO DO: add parser for output from JPL
+    get_ephemerides should return a pd.DataFrame()
+    will need dictionary of names for EVERY column ID 
+    most of this should be written somewhere in whats_up
 """
 
 from urllib.request import urlopen, urlretrieve
 import urllib
 import numpy as np
+import pandas as pd
 from time import strftime, gmtime, time
 from datetime import datetime,timedelta
 import sys, os, warnings, argparse

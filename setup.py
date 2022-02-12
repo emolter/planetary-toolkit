@@ -22,7 +22,7 @@ Topic :: Software Development :: Libraries :: Python Modules
 """.splitlines())))
 
 setup(
-        name="planetary-toolkit",
+        name="planetaryToolkit",
         version=VERSION,
         description=DESCRIPTION,
         long_description=DESCRIPTION,
@@ -30,10 +30,10 @@ setup(
         classifiers=CLASSIFIERS,
         author="Ned Molter",
         author_email="emolter@berkeley.edu",
-        url="https://github.com/emolter/planetary-toolkit",
+        url="https://github.com/emolter/planetaryToolkit",
         python_requires='>=3',
         license="BSD",
-        keywords='planets astronomy moons jpl ephemeris',
+        keywords='planets astronomy moons ephemeris',
         packages=['ephem', 'ephem.tests'],
         platforms=['any'],
         setup_requires=['pytest-runner'],
