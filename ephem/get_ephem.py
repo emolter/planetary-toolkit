@@ -35,13 +35,10 @@ planetaryToolkit/ephem/data/ using pkg_resources
 
 To-Do List
 ----------
-    make a nice README for pyplanet
+    make it so the output dataframe has a datetime index
     make a Jupyter notebook demonstrating get_ephem
     improve the long_names in horizons_column_name_table.txt
     units column in horizons_column_name_table.txt
-    better commenting, including this one
-    make a readthedocs page
-    make the code citeable
 """
 
 from urllib.request import urlopen
