@@ -3,7 +3,7 @@
 import sys
 from setuptools import setup
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = "Python tools for processing observations of solar system bodies; modeling tools for rings, planets, and moons"
 
 CLASSIFIERS = list(filter(None, map(str.strip,

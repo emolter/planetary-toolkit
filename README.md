@@ -1,6 +1,9 @@
 # planetaryToolkit
 Python tools for processing observations of solar system bodies; modeling tools for rings, planets, and moons
 
+[![DOI](https://zenodo.org/badge/458372674.svg)](https://zenodo.org/badge/latestdoi/458372674)
+
+
 
 ## Getting Started
 
@@ -33,7 +36,9 @@ Don't forget to give the project a star! Thanks again!
 
 ## How to Cite
 
-whatever
+This code package has a DOI through Zenodo: <a href="https://zenodo.org/badge/latestdoi/458372674"><img src="https://zenodo.org/badge/458372674.svg" alt="DOI"></a>
+
+
 
 ## License
 
